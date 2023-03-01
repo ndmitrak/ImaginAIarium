@@ -1,4 +1,4 @@
-#ImaginAIarium Bot#
+# ImaginAIarium Bot #
 
 The ImaginAIarium Bot is a Telegram bot designed to facilitate
 a song guessing game.
@@ -9,7 +9,7 @@ from a Telegram channel and submit their guesses as comments.
 The bot is also designed to help the admin easily view all guesses.
 
 
-##Features##
+## Features ##
 The ImaginAIarium Bot has the following features:
 
 User-friendly interface: The bot has an easy-to-use interface that allows users to easily navigate and submit their guesses.
@@ -19,7 +19,7 @@ Admin view: The bot allows the admin to easily view all guesses submitted by use
 Customizable: The bot allows the admin to customize the number of the publication in the Telegram channel for the guessing game.
 
 
-##How to Use##
+## How to Use ##
 To use the ImaginAIarium Bot, follow these steps:
 
 Start a conversation with the bot by searching for it on Telegram or by clicking on the bot's username.
@@ -32,6 +32,6 @@ Submit your guess as a comment.
 
 The admin will be able to see all guesses submitted by users.
 
-##Credits##
+## Credits ##
 This bot was created by dexpiper and ndmitrak and uses
 the Python Telegram Bot library.
