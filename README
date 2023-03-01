@@ -20,18 +20,30 @@ Customizable: The bot allows the admin to customize the number of the publicatio
 
 
 ## How to Use ##
-To use the ImaginAIarium Bot, follow these steps:
+To run the Telegram bot, please follow the steps below:
 
-Start a conversation with the bot by searching for it on Telegram or by clicking on the bot's username.
+Clone the repository or download the code.
+Install the necessary Python packages by
+running pip install -r requirements.txt command in the terminal.
 
-Use the /start command to begin the game.
+Create a .env file and add the following line: BOT_TOKEN=your_bot_token,
+replacing your_bot_token with your
+own Telegram bot token. This token can be obtained from the BotFather.
 
-Choose the number of the publication in the Telegram channel for the guessing game.
+Open the imagine32.py file and update the admin_user_id variable
+to the Telegram ID of the user that should have access to the /clear and /answers commands.
 
-Submit your guess as a comment.
+Run the bot by executing python imagine32.py command in the terminal.
+Once the bot is running, it will listen for messages in any group
+or chat it has been added to.
 
-The admin will be able to see all guesses submitted by users.
+The user with the ID specified in the admin_user_id variable
+will be able to use the /clear command to clear the list of messages,
+and the /answers command to get a table with all the messages saved so far.
 
+To save a message, the user should send a message in the format "number text",
+where "number" is a digit between 1 and 4, and "text" is the text of the message.
+The bot will then save the message and reply with a confirmation message.
 ## Credits ##
 This bot was created by dexpiper and ndmitrak and uses
 the Python Telegram Bot library.
