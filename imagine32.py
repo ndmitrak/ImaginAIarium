@@ -19,8 +19,18 @@ def admin_filter(message):
         user_id = message.from_user.id
     return user_id == admin_user_id
 
-
+# Define start and help functions
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+  bot.reply_to(message, "Привет! Укажите номер песни и свою версию через пробел")
 # Define the message handler
+
+# Define start and help functions
+@bot.message_handler(commands=['help'])
+def send_welcome(message):
+  bot.reply_to(message, "Чем могу помочь?")
+# Define the message handler
+
 @bot.message_handler(func=lambda message: True)
 def collect_messages(message):
     if admin_filter(message):

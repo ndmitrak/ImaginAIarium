@@ -10,6 +10,7 @@ The bot is also designed to help the admin easily view all guesses.
 
 
 ## Features ##
+
 The ImaginAIarium Bot has the following features:
 
 User-friendly interface: The bot has an easy-to-use interface that allows users to easily navigate and submit their guesses.
@@ -20,6 +21,7 @@ Customizable: The bot allows the admin to customize the number of the publicatio
 
 
 ## How to Use ##
+
 To run the Telegram bot, please follow the steps below:
 
 Clone the repository or download the code.
@@ -44,6 +46,8 @@ and the /answers command to get a table with all the messages saved so far.
 To save a message, the user should send a message in the format "number text",
 where "number" is a digit between 1 and 4, and "text" is the text of the message.
 The bot will then save the message and reply with a confirmation message.
+
 ## Credits ##
+
 This bot was created by dexpiper and ndmitrak and uses
 the Python Telegram Bot library.
