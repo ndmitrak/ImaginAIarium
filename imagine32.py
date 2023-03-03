@@ -2,13 +2,13 @@ import telebot
 from datetime import datetime
 
 # Initialize the bot
-bot = telebot.TeleBot('5874216138:AAFxfGM4_Ooc3MnZ5fX3fDd-Vg5DA_fMYts')
+bot = telebot.TeleBot('TOKEN')
 
 # Dictionary to store the messages
 messages = {}
 
 # ID of the admin user
-admin_user_id = 193521537
+admin_user_id = USER_ID
 
 
 # Define the administrator filter
