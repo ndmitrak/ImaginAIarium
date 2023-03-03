@@ -49,5 +49,4 @@ The bot will then save the message and reply with a confirmation message.
 
 ## Credits ##
 
-This bot was created by dexpiper and ndmitrak and uses
-the Python Telegram Bot library.
+This bot was created by ndmitrak and uses the Python Telegram Bot library.
